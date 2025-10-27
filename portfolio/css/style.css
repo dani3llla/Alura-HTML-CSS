@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+strong {
+    color: #AC00D7
+}
+
+p {
+    color: white;
+}
+
+a {
+    color: #000000;
+    background-color: #AC00D7;
+    padding: 20px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.titulodestaque {
+    color: #AC00D7;
+}
