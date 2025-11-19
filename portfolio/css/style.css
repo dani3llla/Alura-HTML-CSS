@@ -37,15 +37,17 @@ strong {
 }
 
 .apresentacao {
-    margin: 8%;
+    margin: 10% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
 
 .apresentacao_conteudo {
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .apresentacao_conteudo_titulo {
@@ -58,4 +60,21 @@ strong {
     font-size: 24px;
 }
 
+.apresentacao_links {
+    display: flex;
+    justify-content: space-between;
+}
 
+.botao_links {
+    background-color: #AC00D7;
+    text-decoration: none;
+    text-align: center;
+    width: 280px;
+    border-radius: 16px;
+    padding: 21.5px 0;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    color: black;
+    
+}
